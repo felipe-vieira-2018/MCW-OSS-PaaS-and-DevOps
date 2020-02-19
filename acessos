@@ -1,2 +1,4 @@
 usuario odl_user_153782@cloudlabsaioutlook.onmicrosoft.com
 senha udsw37PBA*WN
+
+mongoimport --host <your_hostname>:10255 -u <your_username> -p <your_password> --db <your_database> --collection <your_collection> --ssl --sslAllowInvalidCertificates --type json --file <your_collection>.json
